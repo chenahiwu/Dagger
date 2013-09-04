@@ -106,6 +106,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.16</version>
 				<configuration>
+				    <testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
 						<suiteXmlFile>${basedir}/test-xml/self-test.xml</suiteXmlFile>
 					</suiteXmlFiles>
